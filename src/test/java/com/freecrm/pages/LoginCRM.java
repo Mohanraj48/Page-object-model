@@ -14,11 +14,9 @@ public class LoginCRM extends BaseclassCRM
 		this.driver=ldriver;
 	}
 	
-	
 	@FindBy(name="username") WebElement Username;
 	@FindBy(name="password") WebElement pass; 
 	@FindBy(xpath="//input[@type='submit']") WebElement button;
-	
 	
 	public void LogCRM(String UnameApp, String PassApp)
 	{
