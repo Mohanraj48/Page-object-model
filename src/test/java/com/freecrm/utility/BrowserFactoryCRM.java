@@ -29,7 +29,6 @@ public class BrowserFactoryCRM
 		
 	}
 	
-	
 	public static void Quitbrowser(WebDriver driver)
 	{
 		driver.quit();
